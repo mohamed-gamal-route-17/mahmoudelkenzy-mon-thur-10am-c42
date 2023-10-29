@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+/* Global style*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Alegreya Sans;
+    scroll-behavior: smooth;
+}
+.font {
+    color: #686868;
+    font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: Alegreya;
+    font-weight: 100;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #7c7a7a;
+    transition: 0.5s;
+}
+a:hover {
+    color: black;
+}
+/*Home Section */
+#home {
+    background-image: url('img/drew-coffman-1872.jpg');
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    line-height: 31px;
+    color: white;
+    padding-top: 25px;
+}
+.home-content {
+    width: 700px;
+    margin: auto;
+    padding-top: 50px;
+}
+.p-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+#home h1 {
+    margin-bottom: 18px;
+    font-size: 70px;
+    padding: 20px;
+}
+.p-content {
+    line-height: 44px;
+    margin: 10px 0px 20px 0px;
+    font-size: 24px;
+    font-weight: 100;
+}
+.btns {
+    margin-top: 30px;
+}
+.btn {
+    padding: 15px 28px;
+    border-radius: 5px;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 5px;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+.learn-btn {
+    background-color: #8e7754;
+}
+.contact-btn {
+    background-color: transparent;
+    border: 1px solid #ffff;
+}
+/*navbar*/
+.navbar {
+    background-color: #ffff;
+    position: sticky;
+    top: 0px;
+}
+.nav-container {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.nav-logo {
+    float: left;
+    width: 15%;
+}
+.nav-logo img {
+    width: 100%;
+}
+.nav-list {
+    float: right;
+    width: 85%;
+    text-align: right;
+}
+
+.nav-list ul li {
+    display: inline-block;
+    padding: 15px 25px;
+}
+/*Who we are Section */
+
+#whoWeAre {
+    margin-bottom: 10px;
+}
+.container {
+    width: 95%;
+    padding: 50px 15px;
+    margin: auto;
+    overflow: auto;
+}
+.whoWeAre-img {
+    display: inline-block;
+    width: 48%;
+
+    padding-right: 24px;
+    vertical-align: middle;
+}
+.whoWeAre-img img {
+    width: 100%;
+    padding: 0 15px;
+}
+.whoWeAre-cont {
+    width: 51%;
+    display: inline-block;
+
+    padding: 0px 0px 0 39px;
+    line-height: 31px;
+    vertical-align: middle;
+}
+.whoWeAre-cont h2 {
+    font-size: 32px;
+    padding-bottom: 25px;
+}
+
+.whoWeAre-cont ul {
+    list-style: none;
+}
+
+.whoWeAre-cont ul li {
+    padding: 10px 0;
+}
+.whoWeAre-cont ul img {
+    width: 38px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: solid #d9d9d9 1px;
+    margin-right: 10px;
+}
+.whoWeAre-cont ul p {
+    display: inline-block;
+    font-size: 17px;
+}
+/*Our Location Section*/
+#our-Location {
+    background-color: #f8f8f8;
+    padding: 20px 15px 0;
+}
+
+.our-Location-img {
+    display: inline-block;
+    width: 49%;
+
+    vertical-align: middle;
+    padding: 0 15px 0 25px;
+}
+.our-Location-img img {
+    width: 100%;
+}
+.our-Location-content {
+    width: 50%;
+    display: inline-block;
+    line-height: 31px;
+    padding: 0 25px 0 15px;
+    vertical-align: middle;
+}
+.our-Location-content h2 {
+    padding-bottom: 25px;
+    font-size: 32px;
+}
+.our-Location-content .f_p {
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.our-Location-content .s_p {
+    font-size: 15px;
+}
+/*Our Baking Section*/
+
+#baking {
+    text-align: center;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+.baking-heading {
+    margin: 10px 0 60px;
+}
+.baking-heading h3 {
+    font-size: 30px;
+    color: #303030;
+}
+.baking-heading p {
+    color: rgb(136, 136, 136);
+    margin-top: 17px;
+}
+.card {
+    width: 33.33%;
+    float: left;
+    padding: 0 20px 0 15px;
+}
+.card h4 {
+    font-size: 22px;
+    font-weight: 100;
+    color: #303030;
+    padding: 10px 0;
+}
+.card img {
+    width: 100%;
+}
+.card p {
+    line-height: 30.36px;
+    font-size: 17px;
+    font-weight: 100;
+    color: #686868;
+}
+
+/*Contact Section*/
+
+#content {
+    background-color: #f8f8f8;
+    overflow: auto;
+}
+.contact-cont {
+    line-height: 31px;
+    width: 50%;
+    padding: 30px 20px 0;
+    float: left;
+}
+.contact-cont ul img {
+    margin-bottom: 17px;
+}
+.contact-cont ul img {
+    width: 35px;
+    height: 35px;
+    background-color: #8e7754;
+    border-radius: 50%;
+    vertical-align: bottom;
+    margin-right: 10px;
+    line-height: 31px;
+}
+.contact-cont ul p {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px 0;
+}
+.contact-cont h2 {
+    font-size: 32px;
+    padding-bottom: 25px;
+}
+.contact-cont p {
+    color: #686868;
+}
+.contact-p {
+    font-size: 17px;
+    line-height: 31px;
+}
+.ourCont-p {
+    font-size: 17px;
+    margin: 30px 0 20px;
+}
+.map {
+    width: 50%;
+    float: left;
+}
+.main-footer {
+    background-color: #403d38;
+    overflow: auto;
+    color: white;
+    line-height: 31.62px;
+}
+.main-footer h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.main-footer li,
+.main-footer p {
+    font-size: 16px;
+    color: #969696;
+}
+.foot_sec {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+.p_about-us {
+    margin-bottom: 25px;
+}
+
+.main-footer li {
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ffffff0d;
+    margin-bottom: 6px;
+}
+.main-footer li span {
+    margin: 0 10px;
+    font-weight: bold;
+}
+.content-details img {
+    width: 35px;
+    height: 35px;
+    vertical-align: top;
+    width: 13%;
+}
+.content-details p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 85%;
+}
+
+.bottom-footer {
+    background-color: #353330;
+    text-align: center;
+    padding: 50px 0 40px;
+}
+.footer-bottom-img {
+    margin: 10px 0 25px;
+}
+.footer-container {
+    width: 95%;
+    margin: auto;
+}
+.bottom-footer p {
+    color: #777777;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.footer-bottom-icons img {
+    width: 3%;
+    background-color: #484540;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.footer-bottom-icons {
+    margin-top: 15px;
+    padding-top: 8px;
+}
+.footer-bottom-icons img:hover {
+    cursor: pointer;
+    background-color: rgb(36, 94, 160);
+    transition: 0.5s;
+}
